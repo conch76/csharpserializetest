@@ -193,7 +193,7 @@ namespace ConsoleApplication1
     {
         public readonly int Length;
 
-        public PacketAttribute(int length)  // url is a positional parameter
+        public PacketAttribute(int length)
         {
             this.Length = length;
         }
